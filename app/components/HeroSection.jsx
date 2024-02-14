@@ -16,7 +16,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-3xl sm:text-4xl lg:text-7xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-yellow-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-200">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -41,25 +41,19 @@ const HeroSection = () => {
           <div>
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-700 to-yellow-500 hover:bg-slate-200 text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-6 bg-gradient-to-br from-blue-800 to-blue-300 hover:bg-blue-200 text-white"
             >
               Hire Me
             </Link>
             <Link
               href="/CV.pdf"
-              className="px-1 inline-block py-1 w-full sm:w-fit mb-3 rounded-full mr-4 bg-gradient-to-br from-yellow-500 to-blue-700 hover:bg-slate-800 text-white mt-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit mb-3 rounded-full mr-4 bg-gradient-to-br from-blue-300 to-blue-800 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="block  rounded-full px-5 py-2">
                 View CV
               </span>
             </Link>
-            <a
-              href="/CV.pdf"
-              download="CV.pdf"
-              className="px-6 inline-block py-3 w-full sm:w-fit mb-5 rounded-full bg-gradient-to-br from-blue-700 to-yellow-500 hover:bg-slate-200 text-white"
-            >
-              Download CV
-            </a>
+            
           </div>
         </motion.div>
         <motion.div

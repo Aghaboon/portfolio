@@ -18,7 +18,7 @@ const AboutSection = () => {
       <div className=" gap-8 items-center py-6 px-4 ">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg text-justify">
+          <p className="text-base lg:text-lg text-justify leading-relaxed">
           {Space} I am software engineer with a deep passion for both front-end and back-end development.
             During my internship at Bineyes, I gained valuable experience in creating web prototypes and developing user interfaces, adhering to Agile-Scrum methodologies to ensure efficient project management.
             <br />

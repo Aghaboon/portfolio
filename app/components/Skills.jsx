@@ -84,7 +84,7 @@ const Skills = () => {
                                     <ul className="ps-8">
                                         <li
                                             key={index}
-                                            className=" list-disc text-lg">
+                                            className=" list-disc text-lg leading-relaxed">
                                             {item}
                                         </li>
                                     </ul>
