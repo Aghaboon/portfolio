@@ -62,7 +62,7 @@ const Skills = () => {
                 transition={{ duration: 0.75, ease: "easeOut" }}
             >
                 <div className="conText flex flex-col justify-center items-center">
-                    <h1 className='text-center text-4xl font-bold text-white mt-4 pb-6 mb-8 md:mb-6 md:mt-10'>
+                    <h1 className='text-center text-3xl lg:text-4xl font-bold text-white mt-4 pb-6 mb-8 md:mb-6 md:mt-10'>
                         Skills
                     </h1>
 
@@ -77,14 +77,14 @@ const Skills = () => {
                             className=" w-full"
                         >
                             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls={`${skill.id}-content`} id={`${skill.id}-header`}>
-                                <Typography className="text-left text-2xl font-samibold">{skill.title}</Typography>
+                                <Typography className="text-left text-xl lg:text-2xl font-samibold">{skill.title}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 {skill.content.map((item, index) => (
                                     <ul className="ps-8">
                                         <li
                                             key={index}
-                                            className=" list-disc text-lg leading-relaxed">
+                                            className=" list-disc text-lg lg:text-xl leading-relaxed">
                                             {item}
                                         </li>
                                     </ul>

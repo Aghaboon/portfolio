@@ -25,23 +25,24 @@ const WorkExperience = () => {
     };
 
     const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+    const isInView = useInView(ref, { once: true });
 
     return (
         <section id='workExperience' className='pt-20'>
-            <div className='flex flex-col py-6 px-4' id='WorkExperience'>
-            <h1 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>Work Experiences</h1>
-            <div>
-
-                <h2 className='text-3xl leading-normal'>Front-end Developer | Intern</h2>
-                <p className='text-lg pb-2 leading-relaxed'>Bineyes | June 2023 – August 2023</p>
-                <article>
-                    {Array.isArray(achievements) && renderList(achievements, 'list-disc list-inside text-xl leading-relaxed ps-9 pb-1')}
-                </article>
+            <div className='flex flex-col px-4' id='WorkExperience'>
+                <h1 className='text-center text-3xl lg:text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>
+                    Work Experiences
+                </h1>
+                <div>
+                    <h2 className='text-2xl lg:text-3xl leading-normal '>Front-end Developer | Intern</h2>
+                    <p className='text-lg pb-2 leading-relaxed'>Bineyes | June 2023 – August 2023</p>
+                    <article>
+                        {Array.isArray(achievements) && renderList(achievements, 'list-disc list-inside text-lg lg:text-xl leading-relaxed ps-9 pb-1')}
+                    </article>
+                </div>
             </div>
-        </div>
         </section>
-        
+
     );
 };
 

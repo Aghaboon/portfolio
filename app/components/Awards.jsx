@@ -12,10 +12,12 @@ const awards = [
 const Awards = () => {
     return (
         <section id='awards' className='pt-20'>
-            <div className='gap-8 items-center py-6 px-4'>
-                <h1 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>Awards</h1>
+            <div className='gap-8 items-center px-4'>
+                <h1 className='text-center text-3xl lg:text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>
+                    Awards
+                </h1>
                 {awards.map((item, index) => (
-                    <ul key={index} className='list-disc list-inside text-xl text-left leading-relaxed'>
+                    <ul key={index} className='list-disc list-inside text-lg lg:text-xl text-left leading-relaxed'>
                         {item.content.map((award, i) => (
                             <li key={i}>{award}</li>
                         ))}

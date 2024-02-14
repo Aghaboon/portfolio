@@ -27,7 +27,7 @@ const ContactMe = () => {
 
     return (
         <section id="contact" className='pt-20 pb-20' >
-            <h1 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>
+            <h1 className='text-center text-3xl lg:text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>
                 Contact Me
             </h1>
             <motion.div

@@ -11,12 +11,12 @@ const university = [
 const Education = () => {
     return (
         <section id='education' className='pt-20 text-white '>
-            <div className='gap-8 items-center py-6 px-4 '>
-            <h1 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>Education</h1>
+            <div className='gap-8 items-center  px-4 '>
+            <h1 className='text-center text-3xl lg:text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10'>Education</h1>
             {university.map((item, index) => (
                 <>
-                <h2 className='text-3xl leading-relaxed'>{item.title}</h2>
-                <ul className='list-disc list-inside text-xl ps-9 pb-1 leading-relaxed'>
+                <h2 className='text-2xl lg:text-3xl leading-relaxed'>{item.title}</h2>
+                <ul className='list-disc list-inside text-base lg:text-xl ps-9 pb-1 leading-relaxed'>
                     <li>{item.university}</li>
                     <li>{item.graduation}</li>
                 </ul>

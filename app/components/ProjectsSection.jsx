@@ -27,10 +27,10 @@ const projectsData = [
     id: 3,
     title: "Generic E-commerce Platform (Car4Sale) (In Progress)",
     description: "A generic system that supports the Uberization model which can be customized to fit various systems. This project is customized to car platform.",
-    image: "/images/projects/3.png",
+    image: "/images/projects/Capstone.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/gang-of-4/core.git",
+    previewUrl: "/#projects",
   },
 ];
 
@@ -54,7 +54,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects" className='pt-20'>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-6 md:mt-10">
+      <h2 className="text-center text-3xl lg:text-4xl font-bold text-white mb-8 md:mb-6 md:mt-10">
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6 leading-relaxed">
