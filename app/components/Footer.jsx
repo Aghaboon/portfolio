@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 const Footer = () => {
   return (
     <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
-      <div className="container p-4 flex justify-between">
+      <div className="container flex lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
       <ScrollLink
           to="home" // Add an id to your main content section and use it here
           spy={true}
