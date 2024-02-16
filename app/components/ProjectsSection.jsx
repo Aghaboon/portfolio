@@ -11,7 +11,7 @@ const projectsData = [
     description: "A web application that showcases my portfolio (New Version). Next JS, Next UI",
     image: "/images/projects/Portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Aghaboon/portfolio.git",
     previewUrl: "/",
   },
   {
