@@ -79,7 +79,7 @@ const Skills = () => {
                                 className=" w-full"
                             >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls={`${skill.id}-content`} id={`${skill.id}-header`}>
-                                    <Typography className="text-left text-xl lg:text-2xl font-samibold">
+                                    <Typography className="text-left  text-xl lg:text-2xl font-samibold">
                                         {skill.title}
                                     </Typography>
                                 </AccordionSummary>

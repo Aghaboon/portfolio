@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "React Portfolio Website",
     description: "A web application that showcases my portfolio (Old Version). React.JS, Next UI",
-    image: "/images/projects/project2.png",
+    image: "/images/projects/Project2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Aghaboon/myproject.git",
     previewUrl: "https://aghaboon.vercel.app/",
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className='pt-20'>
       <h2 className="text-center text-3xl lg:text-4xl font-bold text-white mb-8 md:mb-6 md:mt-10">
-        My Projects
+        Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6 leading-relaxed">
         <ProjectTag
