@@ -12,7 +12,7 @@ import Awards from "./components/Awards";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
+    <main className="flex min-h-screen flex-col bg-[#121212] text-white">
       <Navbar />
       <div className="container mt-24 mx-auto px-6 py-4">
         <HeroSection />
