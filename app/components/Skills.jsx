@@ -21,7 +21,7 @@ const Skills = () => {
         },
         {
             id: "WebDevelopment",
-            title: "Web Development",
+            title: "Front-end Web Development",
             content: ['Next JS', 'React JS', 'Node.js', 'HTML', 'CSS', 'Tailwind']
         },
         {
