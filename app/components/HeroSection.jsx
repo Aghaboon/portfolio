@@ -4,6 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -39,12 +40,18 @@ const HeroSection = () => {
             voluptuous. */}
           </p>
           <div>
-            <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-6 bg-gradient-to-br from-blue-800 to-blue-300 hover:bg-blue-200 text-white"
+            <ScrollLink
+              to="contact" // Add an id to your main content section and use it here
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="cursor-pointer px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-6 bg-gradient-to-br from-blue-800 to-blue-300 hover:bg-blue-200 text-white"
+              
             >
-              Hire Me
-            </Link>
+                Hire Me
+              
+            </ScrollLink>
             <Link
               href="/CV.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit mb-3 rounded-full mr-4 bg-gradient-to-br from-blue-300 to-blue-800 hover:bg-slate-800 text-white mt-4"
@@ -53,7 +60,7 @@ const HeroSection = () => {
                 View CV
               </span>
             </Link>
-            
+
           </div>
         </motion.div>
         <motion.div
