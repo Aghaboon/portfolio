@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/yallaSponsor.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "https://yallasponsor.com/",
+    previewUrl: "https://yallasponsor.com/en",
   },
   {
     id: 2,
