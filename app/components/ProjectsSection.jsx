@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Yalla Sponsor",
+    description: "A web application designed to connect athletes, sports teams, and sponsors. Yalla Sponsor offers comprehensive solutions, including market intelligence, strategy development, and activation, to help clients fully leverage the potential of sponsorship. Built with Next.js and Next UI, the platform enhances visibility and simplifies the sponsorship process.",
+    image: "/images/projects/yallaSponsor.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://yallasponsor.com/",
+  },
+  {
+    id: 2,
     title: "Next JS Portfolio Website",
     description: "A web application that showcases my portfolio (New Version). Next JS, Next UI",
     image: "/images/projects/Portfolio.png",
@@ -14,15 +23,15 @@ const projectsData = [
     gitUrl: "https://github.com/Aghaboon/portfolio.git",
     previewUrl: "/",
   },
-  {
-    id: 2,
-    title: "React Portfolio Website",
-    description: "A web application that showcases my portfolio (Old Version). React.JS, Next UI",
-    image: "/images/projects/Project2.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Aghaboon/myproject.git",
-    previewUrl: "https://aghaboon.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   title: "React Portfolio Website",
+  //   description: "A web application that showcases my portfolio (Old Version). React.JS, Next UI",
+  //   image: "/images/projects/Project2.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/Aghaboon/myproject.git",
+  //   previewUrl: "https://aghaboon.vercel.app/",
+  // },
   {
     id: 3,
     title: "Generic E-commerce Platform (Car4Sale) (In Progress)",
